@@ -2,3 +2,4 @@
 *.model filter=lfs diff=lfs merge=lfs -text
 *.bin filter=lfs diff=lfs merge=lfs -text
 *.csv filter=lfs diff=lfs merge=lfs -text
+sections/3-build-a-retrieval-project/*.zip filter=lfs diff=lfs merge=lfs -text
