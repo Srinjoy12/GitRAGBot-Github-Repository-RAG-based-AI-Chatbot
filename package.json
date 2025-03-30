@@ -1,0 +1,26 @@
+{
+  "type": "module",
+  "name": "takeoff-rag-course",
+  "version": "1.0.0",
+  "description": "Takeoff RAG Course",
+  "main": "index.js",
+  "scripts": {
+    "db:generate:basics": "npx drizzle-kit generate --config=./sections/1-learn-the-basics/drizzle.config.ts",
+    "db:migrate:basics": "npx drizzle-kit migrate --config=./sections/1-learn-the-basics/drizzle.config.ts"
+  },
+  "author": "Mckay Wrigley",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/pg": "^8.11.10",
+    "cohere-ai": "^7.14.0",
+    "dotenv": "^16.4.5",
+    "drizzle-kit": "^0.19.1",
+    "drizzle-orm": "^0.36.1",
+    "openai": "^4.71.1",
+    "postgres": "^3.4.5",
+    "tsx": "^4.19.2"
+  },
+  "dependencies": {
+    "ai": "^4.2.8"
+  }
+}
